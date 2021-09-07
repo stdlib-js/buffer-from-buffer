@@ -125,6 +125,21 @@ for ( i = 0; i < b2.length; i++ ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/buffer/alloc-unsafe`][@stdlib/buffer/alloc-unsafe]: allocate a buffer having a specified number of bytes.
+-   [`@stdlib/buffer/ctor`][@stdlib/buffer/ctor]: buffer.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -182,7 +197,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/buffer-from-buffer/main/LICENSE
 
+<!-- <related-links> -->
+
+[@stdlib/buffer/alloc-unsafe]: https://github.com/stdlib-js/buffer-alloc-unsafe
+
 [@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
+
+<!-- </related-links> -->
 
 </section>
 
