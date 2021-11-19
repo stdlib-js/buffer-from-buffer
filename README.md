@@ -20,7 +20,7 @@ limitations under the License.
 
 # copyBuffer
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Copy [buffer][@stdlib/buffer/ctor] data to a new [`Buffer`][@stdlib/buffer/ctor] instance.
 
@@ -133,8 +133,8 @@ for ( i = 0; i < b2.length; i++ ) {
 
 ## See Also
 
--   [`@stdlib/buffer/alloc-unsafe`][@stdlib/buffer/alloc-unsafe]: allocate a buffer having a specified number of bytes.
--   [`@stdlib/buffer/ctor`][@stdlib/buffer/ctor]: buffer.
+-   <span class="package-name">[`@stdlib/buffer/alloc-unsafe`][@stdlib/buffer/alloc-unsafe]</span><span class="delimiter">: </span><span class="description">allocate a buffer having a specified number of bytes.</span>
+-   <span class="package-name">[`@stdlib/buffer/ctor`][@stdlib/buffer/ctor]</span><span class="delimiter">: </span><span class="description">Buffer.</span>
 
 </section>
 
@@ -185,8 +185,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/buffer-from-buffer/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/buffer-from-buffer?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/buffer-from-buffer.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/buffer-from-buffer/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
