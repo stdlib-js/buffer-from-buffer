@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.copyBuffer;
+})();
 })();
 </script>
 ```
@@ -110,6 +112,7 @@ var b2 = copyBuffer( b1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var bool;
 var b1;
@@ -133,6 +136,7 @@ for ( i = 0; i < b2.length; i++ ) {
     // => true
 }
 
+})();
 })();
 </script>
 </body>
@@ -237,9 +241,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/buffer/alloc-unsafe]: https://github.com/stdlib-js/buffer-alloc-unsafe/tree/umd
+[@stdlib/buffer/alloc-unsafe]: https://github.com/stdlib-js/buffer-alloc-unsafe/tree/umd/tree/umd
 
-[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor/tree/umd
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
