@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/buffer-from-buffer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Copy buffer data to a new Buffer instance.",
   "license": "Apache-2.0",
   "author": {
