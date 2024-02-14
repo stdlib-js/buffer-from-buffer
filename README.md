@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@esm/index.mjs';
+import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.0-esm/index.mjs';
 ```
 
 #### copyBuffer( buffer )
@@ -96,7 +96,7 @@ var b2 = copyBuffer( b1 );
 <script type="module">
 
 import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@esm/index.mjs';
-import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@esm/index.mjs';
+import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.0-esm/index.mjs';
 
 var bool;
 var b1;
