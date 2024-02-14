@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@deno/mod.js';
+import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.0-deno/mod.js';
 ```
 
 #### copyBuffer( buffer )
@@ -91,7 +91,7 @@ var b2 = copyBuffer( b1 );
 
 ```javascript
 import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@deno/mod.js';
-import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@deno/mod.js';
+import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.0-deno/mod.js';
 
 var bool;
 var b1;
