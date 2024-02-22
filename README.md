@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/buffer-from-buffer/tags). For example,
+
+```javascript
 import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.1-deno/mod.js';
 ```
 
@@ -91,7 +96,7 @@ var b2 = copyBuffer( b1 );
 
 ```javascript
 import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@deno/mod.js';
-import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.1-deno/mod.js';
+import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@deno/mod.js';
 
 var bool;
 var b1;
