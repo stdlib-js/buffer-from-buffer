@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/buffer-from-buffer/tags). For example,
+
+```javascript
 import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.1-esm/index.mjs';
 ```
 
@@ -96,7 +101,7 @@ var b2 = copyBuffer( b1 );
 <script type="module">
 
 import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@esm/index.mjs';
-import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.1-esm/index.mjs';
+import copyBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@esm/index.mjs';
 
 var bool;
 var b1;
