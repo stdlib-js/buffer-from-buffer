@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+copyBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/buffer-from-buffer/tags). For example,
+
+```javascript
 copyBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.2-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var copyBuffer = require( 'path/to/vendor/umd/buffer-from-buffer/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -118,7 +123,7 @@ var b2 = copyBuffer( b1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-buffer@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
