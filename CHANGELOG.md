@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-10-31)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`4610233`](https://github.com/stdlib-js/stdlib/commit/46102338dc4b490af0e03c7698d44f0f2e87eb6e) - **chore:** fix lint errors [(#16385)](https://github.com/stdlib-js/stdlib/pull/16385) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-07)
